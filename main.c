@@ -4,19 +4,19 @@
 
 int main() {
     COLUMN *mycol = create_column("COL_0");
-    insert_value(mycol, 52);
-    insert_value(mycol, 44);
-    insert_value(mycol, 15);
+    insert_value(mycol, 12);
+    insert_value(mycol, 86);
+    insert_value(mycol, 23);
 
     COLUMN *mycol1 = create_column("COL_1");
-    insert_value(mycol1, 46);
-    insert_value(mycol1, 97);
-    insert_value(mycol1, 28);
+    insert_value(mycol1, 98);
+    insert_value(mycol1, 03);
+    insert_value(mycol1, 45);
 
     COLUMN *mycol2 = create_column("COL_2");
-    insert_value(mycol2, 34);
-    insert_value(mycol2, 19);
-    insert_value(mycol2, 76);
+    insert_value(mycol2, 75);
+    insert_value(mycol2, 48);
+    insert_value(mycol2, 36);
 
     /**CDATAFRAME* cdf = createEmptyCDataframe("myDataFrame");
     insertColumn(cdf, mycol);
